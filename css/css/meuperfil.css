@@ -1,0 +1,85 @@
+.itens-wraper {
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+.item {
+    float: left;
+    width: calc(30%);
+    text-align: center;
+    background-color: #bbe1fe;
+    margin: 0 calc(10% / 6) 20px;
+    padding: 30px 0;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+
+.item:hover {
+    box-shadow: rgba(0, 0, 0, 0.401) 2px 2px 20px;
+}
+
+.item label,
+.item h1 {
+    margin: 15px 0;
+}
+
+.item img {
+    width: 64px;
+    display: inline-block;
+}
+
+.item button {
+    width: 120px;
+    height: 30px;
+    margin-top: 8px;
+    background-color: #1265A4;
+    color: white;
+    font-size: 18px;
+    border: none;
+    box-shadow: 3px 3px 5px #0d4d7d;
+    cursor: pointer;
+}
+
+.item button:hover {
+    background-color: #0c446e;
+}
+
+
+@media screen and (max-width:1280px) {
+    .item {
+        width: calc(40%);
+        margin: 0 calc(20% / 4) 20px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    
+}
+
+@media screen and (max-width:860px) {
+    .item {
+        width: calc(70%);
+        margin: 0 calc(30% / 2) 20px;
+    }
+}
+
+@media screen and (max-width:720px) {
+
+    .item {
+        width: calc(90%);
+        margin: 0 calc(10% / 2) 20px;
+    }
+}
+
+@media screen and (max-width:580px) {
+    
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+}
