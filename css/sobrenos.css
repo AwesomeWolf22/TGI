@@ -1,0 +1,79 @@
+.coluna {
+    width: 50%;
+    float: left;
+    height: 400px;
+}
+
+.membro-wraper {
+    width: 80%;
+    margin-top: 30px;
+    transition: 1s;
+    display: inline-block;
+}
+
+.membro-wraper .imagem-pessoa {
+    width: 100px;
+    height: 100px;
+    background-color: #555555;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    border: 2px solid rgb(60, 60, 60);
+    float: left;
+    transition: 2s;
+}
+
+.membro-wraper .text-wraper {
+    float: left;
+    margin-left: 12px;
+}
+
+.membro-wraper:hover {
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+
+@media screen and (max-width:1280px) {
+
+}
+
+@media screen and (max-width:1024px) {
+    .coluna {
+        width: 100%;
+        height: auto;
+    }
+
+    .membro-wraper {
+        width: 80%;
+        float: left;
+        margin-top: 30px;
+        transition: 1s;
+        padding: 20px;
+    }
+
+    .membro-wraper:hover {
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:860px) {
+    .text-wraper {
+        width: 100%;
+        margin-top: 21px;
+    }
+}
+
+@media screen and (max-width:720px) {
+    
+}
+
+@media screen and (max-width:580px) {
+    
+}
+
+@media screen and (max-height: 450px) {
+    .membro-wraper h2 {
+        font-size: 17px;
+    }
+}
